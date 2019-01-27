@@ -28,6 +28,17 @@ import StackWithCustomHeaderBackImage from './StackWithCustomHeaderBackImage'
 import StackWithHeaderPreset from './StackWithHeaderPreset'
 import StackWithTranslucentHeader from './StackWithTranslucentHeader'
 import TabsInDrawer from './TabsInDrawer'
+import CustomTabs from './CustomTabs'
+import CustomTransitioner from './CustomTransitioner'
+import ModalStack from './ModalStack'
+import StacksWithKeys from './StacksWithKeys'
+import StacksInTabs from './StacksInTabs'
+import CustomTabUI from './CustomTabUI'
+import StacksOverTabs from './StacksOverTabs'
+import StacksOverTopTabs from './StacksOverTopTabs'
+import TabsWithNavigationFocus from './TabsWithNavigationFocus'
+import TabsWithNavigationEvents from './TabsWithNavigationEvents'
+import KeyboardHandlingExample from './KeyboardHandlingExample'
 
 const ExampleInfo = {
   SimpleStack: {
@@ -136,6 +147,25 @@ const ExampleRoutes = {
   }),
   StackWithTranslucentHeader,
   TabsInDrawer,
+  CustomTabs,
+  CustomTransitioner,
+  ModalStack,
+  StacksWithKeys,
+  StacksInTabs,
+  CustomTabUI,
+  StacksOverTabs,
+  StacksOverTopTabs,
+  LinkStack: {
+    screen: SimpleStack,
+    path: 'people/Jordan',
+  },
+  LinkTabs: {
+    screen: SimpleTabs,
+    path: 'settings',
+  },
+  TabsWithNavigationFocus,
+  TabsWithNavigationEvents,
+  KeyboardHandlingExample,
 }
 
 class MainScreen extends Component {
